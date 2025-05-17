@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="sales">
+            <group id="order_comments" translate="label" type="text" sortOrder="999" showInDefault="1">
+                <label>Order Comments Settings</label>
+                <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="default_comment" translate="label" type="textarea" sortOrder="20" showInDefault="1">
+                    <label>Default Order Comment</label>
+                    <comment>This comment will be added to each new order.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

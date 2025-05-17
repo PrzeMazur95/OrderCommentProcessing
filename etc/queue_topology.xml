@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/topology.xsd">
+    <exchange name="magento" connection="amqp">
+        <binding id="yellowcard.order.comment" topic="yellowcard.order.comment" destinationType="queue" destination="yellowcard.order.comment"/>
+    </exchange>
+</config>

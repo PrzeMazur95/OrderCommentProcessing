@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <sales>
+            <order_comments>
+                <active>1</active>
+                <default_comment>Default Order Comment</default_comment>
+            </order_comments>
+        </sales>
+    </default>
+</config>

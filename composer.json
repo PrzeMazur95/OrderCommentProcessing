@@ -1,0 +1,21 @@
+{
+    "name": "yellowcard/ordercommentprocessing",
+    "description": "Magento2 module, that uses RabbitMQ queue system, to add new comment to an order, which has ben successfully paid and saved into the database",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "php": ">=7.4 <=8.2"
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "YellowCard\\OrderCommentProcessing\\": ""
+        }
+    }
+}
+
